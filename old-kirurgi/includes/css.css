@@ -1,0 +1,140 @@
+BODY {
+	font-family: Roboto, Verdana, Tahoma, Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: normal;
+	color: #000000;
+	margin:0px;
+}
+/* a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #121212;
+}
+a:hover {
+	text-decoration: none;
+	color: #6D6D6D;
+} */
+
+.balloonstyle {
+	position:absolute;
+	top: -500px;
+	left: 0;
+	padding: 5px;
+	visibility: hidden;
+	border:1px solid #004A84;
+	font:normal 10px Verdana;
+	line-height: 18px;
+	z-index: 100;
+	background-color: white;
+	width: 200px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135,Strength=5);
+}
+#arrowhead{
+	z-index: 99;
+	position:absolute;
+	top: -500px;
+	left: 0;
+	visibility: hidden;
+}
+/* General */
+#container {
+	width: 977px;
+	margin: 10px auto;
+	padding: 0;
+}
+h2 {
+	color: #223363;
+	font-size: 18px;
+	font-weight:bold;
+}
+h3 {
+	color: #223363;
+	font-size: 14px;
+	font-weight:bold;
+}
+.vgGreen {
+	color: #366322;
+}
+ul {
+	list-style-type: square;
+}
+li {
+	padding-bottom: 5px;
+}
+/* header */
+.pagebanner img {
+	border: 0;
+	float: left;
+	padding: 0;
+}
+.navbutton {
+	background-color: #e9edf0;
+	border: 1px solid #c0c0c0;
+	border-radius: 4px;
+	margin: 4px 4px 4px 0;
+	padding: 6px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Robo-Slab', Georgia, serif;
+	font-size: 15px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.navLeft {
+	color: #223363;
+}
+.navRight {
+	color: #366322;
+}
+#navRightPush {
+ margin-left: 66px;
+}
+.navbutton:hover {
+	background-color: #c0c0c0;
+	color: white
+}
+/* footer.php */
+.footer_blue {
+	font-family: 'Robo-slate', Georgia, serif;
+	font-size: 15px;
+	color: #223363;
+}
+.footer_green {
+	font-family: 'Robo-slate', Georgia, serif;
+	font-size: 15px;
+	color: #366322; }
+.ruler {
+	border: 1px solid #CAD3D9;
+	height: 6px;
+	background-color: #CAD3D9;
+}
+/* index.php */
+#klinikImg {
+	margin-left: 20px;
+}
+/* personal.php */
+.perscontent {
+	font: 11px Georgia,Verdana;
+	color: #223363;
+	font-weight: bold;
+}
+/* avdelningen.php */
+li.avdcontent {
+	padding-bottom: 2px;
+}
+.avdinfo {
+	padding-left: 112px;
+}
+
+/* kontakt.php */
+h3.kontakt {
+	background-color: #C9D2D8;
+	color: #223363;
+	display: block;
+	width: 530px;
+	padding: 10px;
+	font-size: 12px;
+}
+.deplogo  {
+	float: right;
+}
